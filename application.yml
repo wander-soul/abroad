@@ -1,0 +1,31 @@
+logging:
+  level:
+    root: INFO
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.server.ip}:11003/eureka/
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://${oauth.server.ip}:11002/uaa/user
+
+#国内
+#eureka.server.ip: 116.62.7.85
+#oauth.server.ip: 114.215.184.96
+
+# 海外
+eureka.server.ip: 47.88.1.237
+oauth.server.ip: 47.88.1.237

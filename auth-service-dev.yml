@@ -1,0 +1,14 @@
+
+server:
+  context-path: /uaa
+  port: 11002
+
+#add
+security:
+  sessions: if-required
+  oauth2:
+    client:
+      clientId: acme
+      clientSecret: acmesecret
+      authorized-grant-types: authorization_code,refresh_token,password,client_credentials
+      scope: openid

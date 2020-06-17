@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "title": "4K",
+        "type": 1,
+        "flag": "4K"
+    },
+    {
+        "id": 2,
+        "title": "3D",
+        "type": 1,
+        "flag": "3D"
+    },
+    {
+        "id": 3,
+        "title": "Comedy",
+        "type": 4,
+        "flag": "Comedy"
+    },
+    {
+        "id": 4,
+        "title": "Crime",
+        "type": 4,
+        "flag": "Crime"
+    },
+    {
+        "id": 5,
+        "title": "Thriller",
+        "type": 4,
+        "flag": "Thriller"
+    },
+    {
+        "id": 6,
+        "title": "Adventure",
+        "type": 4,
+        "flag": "Adventure"
+    },
+    {
+        "id": 7,
+        "title": "Family",
+        "type": 4,
+        "flag": "Family"
+    },
+    {
+        "id": 8,
+        "title": "Fantasy",
+        "type": 4,
+        "flag": "Fantasy"
+    },
+    {
+        "id": 9,
+        "title": "Animation",
+        "type": 4,
+        "flag": "Animation"
+    },
+    {
+        "id": 10,
+        "title": "Documentary",
+        "type": 4,
+        "flag": "Documentary"
+    },
+    {
+        "id": 11,
+        "title": "Film-Noir",
+        "type": 4,
+        "flag": "Film-Noir"
+    },
+    {
+        "id": 12,
+        "title": "Horror",
+        "type": 4,
+        "flag": "Horror"
+    },
+    {
+        "id": 13,
+        "title": "Romance",
+        "type": 4,
+        "flag": "Romance"
+    },
+    {
+        "id": 14,
+        "title": "Sport",
+        "type": 4,
+        "flag": "Sport"
+    },
+    {
+        "id": 15,
+        "title": "War",
+        "type": 4,
+        "flag": "War"
+    },
+    {
+        "id": 16,
+        "title": "Biography",
+        "type": 4,
+        "flag": "Biography"
+    },
+    {
+        "id": 17,
+        "title": "Drama",
+        "type": 4,
+        "flag": "Drama"
+    },
+    {
+        "id": 18,
+        "title": "Mystery",
+        "type": 4,
+        "flag": "Mystery"
+    },
+    {
+        "id": 19,
+        "title": "Sci-Fi",
+        "type": 4,
+        "flag": "Sci-Fi"
+    }
+]

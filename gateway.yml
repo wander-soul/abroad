@@ -1,0 +1,40 @@
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000
+
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
+
+zuul:
+
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+
+  routes:
+
+    mvs-consumer:
+      path: /mvs-consumer/**
+      serviceId: mvs-consumer
+      url: http://47.88.1.237:11008
+      stripPrefix: false
+
+    hmd-box:
+      path: /hmd-box/**
+      serviceId: hmd-box
+      url: http://localhost:11009
+      stripPrefix: false
+      
+    firmware-service:
+      path: /fw/**
+      serviceId: firmware-service
+      stripPrefix: false
+
+server:
+  port: 10080
